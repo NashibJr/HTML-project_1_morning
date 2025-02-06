@@ -17,7 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-header label {
+header .nav_title {
     display: flex;
     align-items: center;
     font-size: larger;
@@ -33,6 +33,12 @@ header label {
     margin: 20px;
     text-decoration: none;
     color: rgb(100, 45, 0);
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
 }
 
 .navigation a::after {
