@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Task</title>
+    <link rel="stylesheet" href="./styles/styles.css"/>
+</head>
+<body>
+    <header>
+        <div class="nav_title">
+            <img src="./images/traac-transparent.png" width="200px" height="110px"/>
+            <h2>HelloTask</h2>
+        </div> 
+        <!-- classes and ids reference an object -->
+        <nav class="navigation">
+            <ul class="nav_list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+        <button class="btn"><b>LOG IN</b></button>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="welcome">
+                <h2 style="margin-bottom: 30px;">Welcome Back</h2>
+                <p style="display: flex; text-align: center;">Please log in using your personal information to stay connected to us.</p>
+            </div>
+            <div class="form-wrapper">
+                <form action="#">
+                    <label style="
+                        font-size: x-large; font-family: Georgia, 'Times New Roman', Times, serif; 
+                        margin-top: 0px;
+                        color: rgb(150, 67, 0);">
+                        <b>LOGIN</b>
+                    </label>
+                    <input type= "email" name = user-email id = "mail" placeholder="Email" style="
+                        text-align: left;
+                        height: 40px;
+                        padding-left: 10px;">
+                    <input type="password" name="user-password" id="pswrd" placeholder="Password" style="
+                        text-align: left;
+                        height: 40px;
+                        padding-left: 10px;">
+                    <a href="#" style="
+                        text-align: left; 
+                        margin-top: 5px; 
+                        text-decoration: none; 
+                        color: rgb(122, 55, 0);">Forgot password?</a>
+                    <input type="submit" value="Log in" style="
+                        height: 40px;
+                        background-color: rgb(122, 55, 0);
+                        color: #fff;
+                        border-color: rgb(150, 67, 0);">
+                    <label>Don't have  an account? 
+                        <a href="#" style="text-decoration: none; color: rgb(122, 55, 0);">Sign up</a>
+                    </label>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
